@@ -3,7 +3,7 @@ const elInput = document.querySelector('#input');
 const elCheckboxFirst = document.querySelector('#checkboxfirst');
 const elCheckboxSec = document.querySelector('#checkboxsec');
 const elSpan = document.querySelector('#span');
-const elSpan2 = document.querySelector('#span');
+const elSpan2 = document.querySelector('#span2');
 const elBtn = document.querySelector('#submit');
 const elHeader = document.querySelector('#header');
 
