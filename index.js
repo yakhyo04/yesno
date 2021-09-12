@@ -1,11 +1,11 @@
 const elForm = document.querySelector('#form');
-const elInput = document.querySelector('#input');
-const elCheckbox = document.querySelector('#checkbox');
-const elCheckbox2 = document.querySelector('#checkbox2');
-const elSpan = document.querySelector('#span');
-const elSpan2 = document.querySelector('#span2');
-const elBtn = document.querySelector('#submit');
-const elHeader = document.querySelector('#header');
+const elInput = elForm.querySelector('#input');
+const elCheckbox = elForm.querySelector('#checkbox');
+const elCheckbox2 = elForm.querySelector('#checkbox2');
+const elSpan = elForm.querySelector('#span');
+const elSpan2 = elForm.querySelector('#span2');
+const elBtn = elForm.querySelector('#submit');
+const elHeader = elForm.querySelector('#header');
 
 elForm.addEventListener('submit', function(e){
     e.preventDefault();
