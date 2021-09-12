@@ -1,7 +1,7 @@
 const elForm = document.querySelector('#form');
 const elInput = document.querySelector('#input');
 const elCheckbox = document.querySelector('#checkbox');
-const elCheckboxSec = document.querySelector('#checkboxsec');
+const elCheckbox2 = document.querySelector('#checkbox2');
 const elSpan = document.querySelector('#span');
 const elSpan2 = document.querySelector('#span2');
 const elBtn = document.querySelector('#submit');
@@ -14,12 +14,10 @@ elForm.addEventListener('submit', function(e){
     }
 
     if(elCheckbox.checked &&  elInput.value >= 5 && elInput.value < 30){
-        // elSpan.classList.remove('yes')
         elSpan2.classList.add('no')
     }
 
     if(elCheckbox.checked && elCheckbox2.checked && elInput.value >= 5 && elInput.value < 30){
-        // elSpan2.classList.remove('no')
         elSpan.classList.add('yes')
     }
 
