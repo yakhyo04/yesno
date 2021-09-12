@@ -18,12 +18,12 @@ elForm.addEventListener('submit', function(e){
         elSpan2.classList.add('no')
     }
 
-    if(elCheckbox.checked && elCheckboxSec.checked && elInput.value >= 5 && elInput.value < 30){
+    if(elCheckbox.checked && elCheckbox2.checked && elInput.value >= 5 && elInput.value < 30){
         // elSpan2.classList.remove('no')
         elSpan.classList.add('yes')
     }
 
-    if(elInput.value < 5 && elCheckboxSec.checked){
+    if(elInput.value < 5 && elCheckbox2.checked){
         elSpan2.classList.add('no')
     }
 
