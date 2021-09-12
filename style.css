@@ -1,0 +1,10 @@
+.yes {
+    color: rgb(52, 187, 52);
+    font-size: 35px;
+    font-weight: 700;
+}
+.no {
+    color: red;
+    font-size: 35px;
+    font-weight: 700;
+}
